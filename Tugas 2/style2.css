@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+.box{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background: #F5F6FA;
+}
+
+.pembungkus{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.kartu-produk{
+    position: relative;
+    width: 260px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.kotak-gambar{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background: #C2D3F4;
+    text-align: center;
+}
+
+.ikon-produk{
+    font-size: 80px;
+    line-height: 180px;
+}
+
+.label-diskon{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #E63946;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.label-baru{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #3B5BDB;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.badge-terjual{
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    background: #555;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.info-produk{
+    padding: 15px;
+}
+
+.nama-produk{
+    font-weight: bold;
+    color: #1A1A2E;
+    margin-bottom: 10px;
+}
+
+.baris-harga{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.harga-diskon{
+    float: left;
+    color: #E63946;
+    font-weight: bold;
+}
+
+.harga-asli{
+    float: left;
+    margin-left: 8px;
+    color: #AAAAAA;
+    text-decoration: line-through;
+}
+
+.baris-rating{
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+.bintang{
+    float: left;
+    color: #F59E0B;
+}
+
+.jumlah-ulasan{
+    float: left;
+    margin-left: 6px;
+    color: #AAAAAA;
+}
+
+.tombol-keranjang{
+    width: 100%;
+    padding: 10px;
+    background: #3B5BDB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
