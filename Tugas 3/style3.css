@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf5e6;
+    margin: 0;
+}
+
+.header {
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 0 2px 5px black;
+}
+
+.main {
+    background-color: white;
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 15px black;
+    border-radius: 10px;
+}
+
+.discount {
+    position: sticky;
+    top: 0;
+    background-color: #76b947;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px black;
+}
+
+h2 {
+    color: #e63946;
+    text-align: center;
+}
+
+h3 {
+    color: #f19c1f;
+    border-left: 5px solid #f19c1f;
+    padding-left: 10px;
+}
+
+p, ul, ol {
+    color: #444;
+    line-height: 1.6;
+}
+
+.spacer {
+    border-top: 1px dashed #ccc;
+    height: 600px;
+    text-align: center;
+}
+
+.secret {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #402D26;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 0;
+}
+
+.secret:hover {
+    background-color: #f19c1f;
+}
+
+.pixel td {
+    width: 18px;
+    height: 18px;
+}
+
+.m { background-color: #e63946; } 
+.k { background-color: #ffcc00; } 
+.h { background-color: #402D26; } 
+.o { background-color: white; }
